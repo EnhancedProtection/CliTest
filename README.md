@@ -1,5 +1,9 @@
 # Testing cli!
-
+<p align="center">
+    <br>
+    How To Use Git CLI
+    <br>
+</p>
 
 #### For Termux
 ```bash
@@ -43,7 +47,8 @@ You will be asked for some info fill them according to your choice or just press
 
 #### Configure github account with cli
 
-As we have created the ssh-key now its time to add that key into our github account by which we can authenticate to account by using cli
+As we have created the ssh-key now its time to add that key into our github account by which we can authenticate to account by using CLI.
+<br>
 To do this the first steps is that we need to copy the public key of ssh for that we will be using a command
 
 ```bash
@@ -51,7 +56,7 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 
-Now copy the text (key) to the clipboard and follow the next steps 
+Now copy the text (key) shown on the to the clipboard and follow the next steps 
 
 1. Go to browser and log in to your github account
 2. Click on Setting

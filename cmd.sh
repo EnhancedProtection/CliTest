@@ -12,7 +12,7 @@ git config --global user.email "email@example.com"
 
 mkdir ~/.ssh
 
-ssh-keygen -t rsa -i 2048 -C "email@example.com"
+ssh-keygen -t rsa -i 2048 -C "email@example.com" -f ~/.ssh/id_rsa
 #   Press enter and enter again...
 
 cat ~/.ssh/id_rsa.pub
