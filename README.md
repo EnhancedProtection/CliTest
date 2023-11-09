@@ -1,7 +1,9 @@
 # Testing cli!
 <p align="center">
     <br>
-   # How To Use Git CLI
+    <h1>
+        How To Use Git CLI
+    </h1>
     <br>
 </p>
 
@@ -48,6 +50,7 @@ You will be asked for some info fill them according to your choice or just press
 #### Configure github account with cli
 
 As we have created the ssh-key now its time to add that key into our github account by which we can authenticate to account by using CLI.
+<br>
 <br>
 To do this the first steps is that we need to copy the public key of ssh for that we will be using a command
 
