@@ -6,7 +6,7 @@
 apt install openssh
 ```
 
-#### For linux
+#### For Linux
 
 ```bash
 apt install ssh
@@ -24,21 +24,21 @@ git config --global user.email "email@emaple.com"
 ```
 
 #### Note :
-- The username and email must match your github account
+- The username and email must match to your github account
 - The username may be case sensitive
 
 #### Now create a directory to store ssh key
 ```bash
-mkdir ~/.ssh
+mkdir -p ~/.ssh
 ```
 
 #### Create ssh key using this command
-```
-ssh-keygen -t rsa -b 2048 -C "email@example.com"
+```bash
+ssh-keygen -t rsa -b 2048 -C "email@example.com" -f ~/.ssh/id_rsa
 ```
 
 
-You will be asked for some info fill them according to you or just press enter and enter again until it finishes.
+You will be asked for some info fill them according to your choice or just press enter and enter again until it finishes.
 
 
 #### Configure github account with cli
@@ -46,7 +46,7 @@ You will be asked for some info fill them according to you or just press enter a
 As we have created the ssh-key now its time to add that key into our github account by which we can authenticate to account by using cli
 To do this the first steps is that we need to copy the public key of ssh for that we will be using a command
 
-```
+```bash
 cat ~/.ssh/id_rsa.pub
 ```
 
@@ -62,5 +62,5 @@ you can choose a title whatever you want and the Key type must be set to "Authen
 Now click on "Add SSH key"
 
 
-##### Congratulation you have configured your git!
+## Congratulation you have configured your git!
 
