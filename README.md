@@ -2,25 +2,42 @@
 
 
 #### For Termux
-` apt install openssh`
+```bash
+apt install openssh
+```
+
 #### For linux
-` apt install ssh`
+
+```bash
+apt install ssh
+```
 
 Configure your username with this command
-` git config --global user.name "username" `
+
+```bash
+git config --global user.name "username"
+```
 
 Now configure your email with this command
-` git config --global user.email "email@emaple.com"`
+```bash
+git config --global user.email "email@emaple.com"
+```
 
 #### Note :
 - The username and email must match your github account
 - The username may be case sensitive
 
 #### Now create a directory to store ssh key
-` mkdir ~/.ssh `
+```bash
+mkdir ~/.ssh
+```
 
 #### Create ssh key using this command
-` ssh-keygen -t rsa -b 2048 -C "email@example.com" `
+```
+ssh-keygen -t rsa -b 2048 -C "email@example.com"
+```
+
+
 You will be asked for some info fill them according to you or just press enter and enter again until it finishes.
 
 
@@ -28,7 +45,11 @@ You will be asked for some info fill them according to you or just press enter a
 
 As we have created the ssh-key now its time to add that key into our github account by which we can authenticate to account by using cli
 To do this the first steps is that we need to copy the public key of ssh for that we will be using a command
-` cat ~/.ssh/id_rsa.pub `
+
+```
+cat ~/.ssh/id_rsa.pub
+```
+
 
 Now copy the text (key) to the clipboard and follow the next steps 
 
