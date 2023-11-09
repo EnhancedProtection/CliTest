@@ -1,7 +1,7 @@
 # Testing cli!
 <p align="center">
     <br>
-    How To Use Git CLI
+   # How To Use Git CLI
     <br>
 </p>
 
