@@ -1,12 +1,7 @@
 # Testing cli!
-<p align="center">
-    <br>
-    <h1>
-        How To Use Git CLI
-    </h1>
-    <br>
-</p>
-
+<div align="center">
+# How To Use Git CLI
+</div>
 #### For Termux
 ```bash
 apt install openssh
