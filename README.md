@@ -5,13 +5,13 @@
 
 #### For Termux
 ```bash
-apt install openssh
+apt install openssh git -y
 ```
 
 #### For Linux
 
 ```bash
-apt install ssh
+sudo apt install ssh git -y
 ```
 
 Configure your username with this command
@@ -66,5 +66,71 @@ you can choose a title whatever you want and the Key type must be set to "Authen
 Now click on "Add SSH key"
 
 
-## Congratulation you have configured your git!
+#### Congratulation you have configured your git cli!
+
+### Now its time to upload a project to you github repo
+
+move to your directory where you have stored your project and follow the steps
+
+First we will initialize that directory
+
+```bash
+git init
+```
+Now add all the files and folders to git
+
+```bash
+git add .
+```
+
+Then we have to commit 
+```bash
+git commit -m "Initial commit"
+```
+We can congigure our branch by default it is master
+
+```bash
+git branch -M main
+```
+
+After all this we have to add the github repo
+
+```bash
+git remote add origin https://githu.com/username/repo.git
+```
+
+The final step is to push the local git to github repo
+```bash
+git push -u origin main
+```
+
+##### Congratulations you have uploaded your first repo with cli
+
+Now if you have changed anything to your file and you want to update it on the repo for that we don't have to do these all thinkgs this was for the first time
+<br>
+Suppose we have changed any file now follow the steps
+
+<br>
+
+Fist of all the add the current file to git
+
+```bash
+git add .
+```
+
+Then we need to commit it with a reason!
+
+```bash
+git commit -m "Updated README.md"
+```
+
+The final step is to push
+
+```bash
+git push
+```
+
+##### That's it you have updated your code to github repo
+
+
 
