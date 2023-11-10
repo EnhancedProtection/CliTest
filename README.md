@@ -87,7 +87,14 @@ Then we have to commit
 ```bash
 git commit -m "Initial commit"
 ```
-We can congigure our branch by default it is master
+We can configure our branch, by default it is master branch
+
+You can check branch by typing this command
+
+```bash
+git branch
+```
+To rename the branch to main type
 
 ```bash
 git branch -M main
