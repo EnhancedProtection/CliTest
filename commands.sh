@@ -2,40 +2,37 @@
 
 
 
-apt install git
-apt install openssh
+# Installing git & ssh
+apt install git openssh
 
 
+# Configuring git username & email
 git config --global user.name "username"
 git config --global user.email "email@example.com"
-#   Put you github username & email
 
-mkdir ~/.ssh
+# Creating directory to store ssh key
+mkdir -p ~/.ssh
 
-ssh-keygen -t rsa -i 2048 -C "email@example.com" -f ~/.ssh/id_rsa
-#   Press enter and enter again...
+# Creating ssh key
+ssh-keygen -t rsa -b 2048 -C "email@example.com" -f ~/.ssh/id_rsa
 
+
+# Getting the key
 cat ~/.ssh/id_rsa.pub
-#   Copy the public key you got after running the last command
-#   Now goto you github account > Setting > SSH and GPG Keys
-#   Click "New SSH key"
-#   Paste the key in the "key" section, Key type must be set
-#   to "Authentication Key"
-#   You can give any title and click on "Add SSH key"
+# Add the ssh key to your github account!
 
-
-
+# Initialing directory and uploading for the first time to main branch
 git init
 git add .
-git commit -m "initial commit"
-git branch -M enhanced
-git remote add origin "https://github.com/unane/repo.git"
-git push -u origin enhanced
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin "https://github.com/OWNER/REPO.git"
+git push -u origin main
 
 
-
+# Upading the previous uploaded repo!
 git add .
-git commit - m "Update x file!"
+git commit -m "Update x file!"
 git push
 
 
