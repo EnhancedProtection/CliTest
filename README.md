@@ -103,7 +103,7 @@ git branch -M main
 After all this we have to add the github repo
 
 ```bash
-git remote add origin https://githu.com/username/repo.git
+git remote add origin https://github.com/username/repo.git
 ```
 
 The final step is to push the local git to github repo
