@@ -106,9 +106,10 @@ git push -u origin main
 
 ##### Congratulations you have uploaded your first repo with cli
 
-Now if you have changed anything to your file and you want to update it on the repo for that we don't have to do these all thinkgs this was for the first time
+Now if you have changed anything to your file and you want to update it on the repo for that we don't have to do these all thinkgs this was for the first time.
 <br>
-Suppose we have changed any file now follow the steps
+
+Suppose we have changed any file now follow the steps.
 
 <br>
 
