@@ -1,4 +1,4 @@
-# Testing cli!
+# Github CLI!
 <p align="center">
                        How To Use Git CLI
 </p>
