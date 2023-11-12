@@ -66,7 +66,7 @@ you can choose a title whatever you want and the Key type must be set to "Authen
 Now click on "Add SSH key"
 
 
-#### Configure gh cli that you don't can access the git'
+#### Configure gh cli to access & use git properly
 
 ```bash
 gh auth login
@@ -74,21 +74,28 @@ gh auth login
 
 Now it prompt to chosse account like this
 <img src="assets/image_1.jpg">
-choose Github.com
-
+__choose Github.com__
+<br>
 <img src="assets/image_2.jpg">
-Now choose HTTPS
+__Now choose HTTPS__
+<br>
 <img src="assets/image_3.jpg">
-Login with a web browser
+__Login with a web browser__
+<br>
 <img src="assets/image_4.jpg">
-Now you will see a code on your screen and a promt to open browser
-Select the browser in which you are logged in with that account
+__Now you will see a code on your screen and a promt to open browser__
+<br>
+__Select the browser in which you are logged in with that account__
+<br>
 <img src="assets/image_5.jpg">
-Type the code shown on the terminal and click continue
+__Type the code shown on the terminal and click continue__
+<br>
 <img src="assets/image_6.jpg">
-On next screen you will see something like this just click "Authorize Github"
+__On next screen you will see something like this just click "Authorize Github"__
+<br>
 <img src="assets/image_7.jpg">
-And at last you will see a screen like this
+__And at last you will see a screen like this__
+
 
 #### Congratulation you have configured your git & gh cli!
 
