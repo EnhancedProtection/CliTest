@@ -111,7 +111,7 @@ The final step is to push the local git to github repo
 git push -u origin main
 ```
 
-##### Congratulations you have uploaded your first repo with cli
+#### Congratulations you have uploaded your first repo with cli
 
 Now if you have changed anything to your file and you want to update it on the repo for that we don't have to do these all thinkgs this was for the first time.
 <br>
@@ -138,7 +138,7 @@ The final step is to push
 git push
 ```
 
-##### That's it you have updated your code to github repo
+#### That's it you have updated your code to github repo
 
 
 
