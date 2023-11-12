@@ -5,13 +5,13 @@
 
 #### For Termux
 ```bash
-apt install openssh git -y
+pkg update && pkg install openssh git gh -y
 ```
 
 #### For Linux
 
 ```bash
-sudo apt install ssh git -y
+sudo apt update && sudo apt install ssh git gh -y
 ```
 
 Configure your username with this command
@@ -66,7 +66,31 @@ you can choose a title whatever you want and the Key type must be set to "Authen
 Now click on "Add SSH key"
 
 
-#### Congratulation you have configured your git cli!
+#### Configure gh cli that you don't can access the git'
+
+```bash
+gh auth login
+```
+
+Now it prompt to chosse account like this
+<img src="assets/image_1.jpg">
+choose Github.com
+
+<img src="assets/image_2.jpg">
+Now choose HTTPS
+<img src="assets/image_3.jpg">
+Login with a web browser
+<img src="assets/image_4.jpg">
+Now you will see a code on your screen and a promt to open browser
+Select the browser in which you are logged in with that account
+<img src="assets/image_5.jpg">
+Type the code shown on the terminal and click continue
+<img src="assets/image_6.jpg">
+On next screen you will see something like this just click "Authorize Github"
+<img src="assets/image_7.jpg">
+And at last you will see a screen like this
+
+#### Congratulation you have configured your git & gh cli!
 
 ### Now its time to upload a project to you github repo
 
