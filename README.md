@@ -74,26 +74,33 @@ gh auth login
 
 ##### Now it prompt to chosse account like this
 <img src="assets/image_1.jpg">
+
 ##### choose Github.com
 
 <img src="assets/image_2.jpg">
+
 ##### Now choose HTTPS
 
 <img src="assets/image_3.jpg">
+
 ##### Login with a web browser
 
 <img src="assets/image_4.jpg">
+
 ##### Now you will see a code on your screen and a promt to open browser
 
 ##### Select the browser in which you are logged in with that account
 
 <img src="assets/image_5.jpg">
+
 ##### Type the code shown on the terminal and click continue
 
 <img src="assets/image_6.jpg">
+
 ##### In this screen you will see something like this just click "Authorize Github"
 
 <img src="assets/image_7.jpg">
+
 ##### And at last you will see a screen like this
 
 #### Congratulation you have configured your git & gh cli!
